@@ -2,6 +2,12 @@
 
 This repository implements a compact multimodal Retrieval-Augmented Generation (RAG) demo that indexes PDF pages, retrieves semantically relevant pages for a user query, converts those pages to images, and sends text+image context to a large-model chat completion for a grounded answer.
 
+<img width="1715" height="801" alt="Screenshot 2025-12-12 151652" src="https://github.com/user-attachments/assets/530f36fc-c0b6-4c83-a809-6afc1bda8da2" />
+<img width="1717" height="779" alt="Screenshot 2025-12-12 151757" src="https://github.com/user-attachments/assets/3be8584a-d605-411d-bf67-9a9440b43876" />
+<img width="1773" height="828" alt="Screenshot 2025-12-12 151750" src="https://github.com/user-attachments/assets/0691501b-5627-49d0-ac44-522fcebeb972" />
+
+
+
 **What we built**
 - A small Gradio app (`app.py`) that accepts a PDF and a user question and displays an assistant conversation UI.
 - A processing module (`logic.py`) that performs PDF text extraction, page-level semantic indexing (embeddings), retrieval of top relevant pages, page image conversion, and a multimodal chat completion call to a model via the Groq client.
@@ -61,4 +67,5 @@ python app.py
 - `logic.py`: indexing, retrieval, multimodal input construction, and Groq completion call.
 
 If you want, I can add a short diagram, example interaction transcript, or expand the README with code snippets highlighting the retrieval code paths. Tell me which you'd prefer.
+
 
