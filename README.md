@@ -1,4 +1,4 @@
-# MultiModalProject
+# 📑 TECHNICAL REPORT: Multi-Modal Document Intelligence
 
 This repository implements a compact multimodal Retrieval-Augmented Generation (RAG) demo that indexes PDF pages, retrieves semantically relevant pages for a user query, converts those pages to images, and sends text+image context to a large-model chat completion for a grounded answer.
 
@@ -61,3 +61,4 @@ python app.py
 - `logic.py`: indexing, retrieval, multimodal input construction, and Groq completion call.
 
 If you want, I can add a short diagram, example interaction transcript, or expand the README with code snippets highlighting the retrieval code paths. Tell me which you'd prefer.
+
