@@ -1,0 +1,12 @@
+# UI Framework (Updated to latest version for Dec 2025)
+gradio>=6.1.0
+
+# Inference & Vision API
+groq>=0.13.0
+
+# Document Processing & OCR-alternative
+pdf2image>=1.17.0
+Pillow>=10.4.0
+
+# Environment Management
+python-dotenv>=1.0.1
