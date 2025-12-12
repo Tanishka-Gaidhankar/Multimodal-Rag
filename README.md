@@ -2,12 +2,14 @@
 
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/)
 [![Gradio](https://img.shields.io/badge/gradio-%3E%3D3.0-orange)](https://gradio.app/)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 
 A compact, opinionated Retrieval-Augmented Generation (RAG) demo that turns PDFs into a multimodal knowledge source: index page-level semantics, retrieve relevant pages, convert them to images, and ask a multimodal assistant (text + images) to answer grounded questions.
 
 This repo is designed for experimentation and demos — fast to run locally and easy to extend.
 
+
+ Demo Video - https://drive.google.com/file/d/1Y64lY3x6zD5ck5a8igwfJB3yeNFEgcvh/view?usp=sharing
 ---
 
 ## ✨ Highlights 
